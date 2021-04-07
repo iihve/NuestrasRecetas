@@ -327,7 +327,7 @@
     font-size: 1.3rem;
   }
   .recetas__bio-image {
-    height: 50vh;
+    height: 70vh;
   }
   .recetas__items {
     -ms-grid-columns: (1fr)[3];
@@ -342,6 +342,16 @@
   .home {
     padding-top: 25vh;
   }
+  .recetas__bio-image {
+    height: 70vh;
+  }
+  .recetas__items {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+  .recetas .text-secondary {
+    font-size: 3rem;
+  }
 }
 
 @media screen and (min-width: 1480px) {
@@ -351,6 +361,12 @@
   .nav .menu-nav__item {
     display: inline;
     padding-right: 3.5rem;
+  }
+  .about .text-secondary {
+    font-size: 2rem;
+  }
+  .about p {
+    font-size: 1rem;
   }
 }
 

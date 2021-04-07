@@ -29,7 +29,7 @@
 
     .recetas {
         &__bio-image {
-            height: 50vh;
+            height: 70vh;
             
         }
         &__items {
@@ -42,10 +42,6 @@
         }
         
     }
-      
-    
-    
-
 }
 
 @include media-lg  {
@@ -53,6 +49,18 @@
         padding-top: 25vh;
         // padding-top: 50vh;
 
+    }
+    .recetas {
+        &__bio-image {
+            height: 70vh;
+            
+        }
+        &__items {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .text-secondary {
+            font-size: 3rem;
+        }
     }
     
     
@@ -68,6 +76,14 @@
                 padding-right: 3.5rem;
             }
         }
+    }
+    .about {
+        .text-secondary {
+            font-size: 2rem;
+        }
+        p {
+            font-size: 1rem;
+            }
     }
 
 }

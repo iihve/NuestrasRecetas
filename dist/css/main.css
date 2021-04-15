@@ -194,8 +194,8 @@
 .recetas__bio-image {
   height: 60vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.5)), to(rgba(39, 39, 39, 0.2))), url("../imagesR/CoverImg.png") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.5), rgba(39, 39, 39, 0.2)), url("../imagesR/CoverImg.png") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.5)), to(rgba(39, 39, 39, 0.2))), url("../imagesR/CoverSite.jpg") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.5), rgba(39, 39, 39, 0.2)), url("../imagesR/CoverSite.jpg") center top;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -469,6 +469,13 @@
 .about footer {
   -webkit-transform: rotate(90deg) translate(-3rem, -5rem);
           transform: rotate(90deg) translate(-3rem, -5rem);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {

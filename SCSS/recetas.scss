@@ -79,7 +79,7 @@
     }
 
 
-    &__btns {
+    &__btn {
         opacity: 0;
         color: set-text-color($secondary-color);
         @include transition-ease;

@@ -115,8 +115,8 @@
       }
     }
 }
-// this forloop will target the menu nav item and the nthchild
-// to have it delay betwen each one 
+// this forloop will target the menu nav item and the nth child
+// to have it delay between each one iterate through each one from the first to the last one they will stagger in
 @for $i from 1 through 4 {
     .menu-nav__item:nth-child(#{$i}) {
         transition-delay: ($i * 0.1s) + 0.15s;

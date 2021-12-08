@@ -9,11 +9,11 @@ $secondary-color: #ff6500;
     margin: 0;
     padding: 0;
 }
-// this mixing is tp target any transition we have
+// this mixing is to target any transition we haveto ease in and out for half a second
 @mixin transition-ease {
     transition: all 0.5s ease-in-out;
 } 
-// tis function is if the lightnes of a color is more than
+// this function is if the lightnes of a color is more than
 // 40% then it will return black if not then it will return
 // white 
 @function set-text-color($color) {

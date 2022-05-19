@@ -1,7 +1,6 @@
 .home {
     height: 100%;
-    // padding-top: 45vh;
-    padding-top: 15vh;
+    padding-top: 45vh;
     overflow: hidden;
     align-items: center;
     text-align: center;
@@ -11,7 +10,7 @@
             rgba($primary-color, 0.5),
             rgba($primary-color, 0.2)
         ),
-    url('../imagesR/covers/CoverPrincipalImg.jpg') center top;
+    url('/imagesR/covers/CoverPrincipalImg.jpg') center top;
     background-size: cover;
     &__name {
         font-size: 3rem;
@@ -27,10 +26,4 @@
     .social-icons {
         font-size: .7rem;
     }
-
-   
-
-
-
-
 }

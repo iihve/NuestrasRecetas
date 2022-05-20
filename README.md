@@ -1,2 +1,0 @@
-# NuestrasRecetas
-A compilation of recipes from family members following their home traditions shared to keep the flavor of our family together a web site to keep updating and to perpetuate not only food but what made this a family favorite or who made it and why we like it so much.
